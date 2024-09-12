@@ -1,0 +1,54 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 15px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.table-responsive {
+    margin: auto;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.btn {
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+    
+    .table th, .table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn {
+        width: 100px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .btn {
+        width: 80px;
+        font-size: 10px;
+    }
+
+    .table th, .table td {
+        font-size: 12px;
+    }
+}
